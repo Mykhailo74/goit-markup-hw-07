@@ -1,29 +1,37 @@
-@media screen and (min-width: 428px) {
+/* @media screen and (min-width: 426px) {
     .container {
         max-width: 396px;
     }
-}
+} */
 
 @media screen and (min-width:768px) {
     .container {
         max-width: 766px;
     }
+
+    /* .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;       
+        text-align: center;
+        row-gap: 64px;
+    } */
+
+    .team-item {
+        width: calc((100% - 24px) / 2);
+    }
 }
 
-.team-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    text-align: center;
-    row-gap: 64px;
-}
-
-/* .team-item {
-    width: calc((100% - 24px) / 2);
-} */
 
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
     }
+
+    /* .team-list {
+        display: flex;
+        flex-wrap: no-wrap;
+        gap: 24px;
+    } */
+    width: calc((100% - 30px) / 4);
 }
