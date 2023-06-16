@@ -10,14 +10,17 @@
     }
 }
 
-.team-item {
-    /* width: calc((100% - 24px) / 2); */
+.team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     text-align: center;
     row-gap: 64px;
 }
+
+/* .team-item {
+    width: calc((100% - 24px) / 2);
+} */
 
 @media screen and (min-width: 1158px) {
     .container {
