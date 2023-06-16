@@ -17,9 +17,15 @@
         row-gap: 64px;
     } */
 
-    /* .team-item {
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap 24px;
+    }
+
+    .team-item {
         width: calc((100% - 24px) / 2);
-    } */
+    }
 }
 
 
@@ -34,5 +40,8 @@
         gap: 24px;
     }
 
-    /* width: calc((100% - 30px) / 4); */
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    }
+
 }
