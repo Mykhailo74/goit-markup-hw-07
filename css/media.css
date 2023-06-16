@@ -28,10 +28,11 @@
         max-width: 1158px;
     }
 
-    /* .team-list {
+    .team-list {
         display: flex;
         flex-wrap: no-wrap;
         gap: 24px;
-    } */
+    }
+
     /* width: calc((100% - 30px) / 4); */
 }
