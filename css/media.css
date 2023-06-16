@@ -1,8 +1,8 @@
-/* @media screen and (min-width: 426px) {
+@media screen and (min-width: 426px) {
     .container {
         max-width: 396px;
     }
-} */
+}
 
 @media screen and (min-width:768px) {
     .container {
@@ -17,9 +17,9 @@
         row-gap: 64px;
     } */
 
-    .team-item {
+    /* .team-item {
         width: calc((100% - 24px) / 2);
-    }
+    } */
 }
 
 
@@ -33,5 +33,5 @@
         flex-wrap: no-wrap;
         gap: 24px;
     } */
-    width: calc((100% - 30px) / 4);
+    /* width: calc((100% - 30px) / 4); */
 }
