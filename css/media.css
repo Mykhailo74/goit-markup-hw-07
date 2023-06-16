@@ -1,26 +1,25 @@
+/* MOBILE */
+
 @media screen and (min-width: 426px) {
     .container {
         max-width: 396px;
     }
 }
 
+/* TABLET */
+
 @media screen and (min-width:768px) {
     .container {
         max-width: 766px;
     }
 
-    /* .team-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 24px;       
-        text-align: center;
-        row-gap: 64px;
-    } */
-
+    /* Team */
     .team-list {
         display: flex;
         flex-wrap: wrap;
-        gap 24px;
+        gap: 24px;
+        text-align: center;
+        row-gap: 64px;
     }
 
     .team-item {
@@ -28,12 +27,14 @@
     }
 }
 
+/* DESKTOP */
 
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
     }
 
+    /* Team */
     .team-list {
         display: flex;
         flex-wrap: no-wrap;
