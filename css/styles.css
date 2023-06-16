@@ -45,7 +45,7 @@ img {
 }
 
 .container {
-    width: 100%;
+    max-width: 426px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -286,7 +286,7 @@ img {
 .team-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
 }
 
 .team-item {
