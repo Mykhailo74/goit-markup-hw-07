@@ -14,16 +14,47 @@
     }
 
     /* Team */
+    .team-section {}
+
+    .team-container {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+
     .team-list {
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        text-align: center;
+        /* text-align: center; */
         row-gap: 64px;
+        justify-content: center;
     }
 
     .team-item {
+        width: 264px;
+        margin: 0 auto;
         width: calc((100% - 24px) / 2);
+    }
+
+    /* Customers */
+    .customers-section {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .customers-container {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+
+    .customers-list {
+        gap: 24px;
+        row-gap: 72px;
+    }
+
+    .customers-item {
+        width: calc((100% - 48px) / 3);
     }
 }
 
