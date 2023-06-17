@@ -207,17 +207,25 @@ img {
 /* Advantages */
 
 .advantage-section {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .advantage-list {
     display: flex;
-    gap: 24px;
-    height: 224px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 72px;
+}
+
+.advantage-item {
+    /* padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto; */
 }
 
 .advantage-feature {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     height: 112px;
@@ -262,7 +270,13 @@ img {
 
 .activities-list {
     display: flex;
-    gap: 24px;
+    align-items: center;
+    gap: 72px;
+}
+
+.advantage-item {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Team */
