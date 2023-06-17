@@ -214,7 +214,6 @@ img {
 
 .advantage-container {
     min-width: 396px;
-    min-height: 624px;
 }
 
 .advantage-list {
@@ -241,7 +240,7 @@ img {
     display: none;
     justify-content: center;
     align-items: center;
-    height: 112px;
+    height: 1.12;
     background: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
@@ -250,7 +249,7 @@ img {
 .advantage-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;

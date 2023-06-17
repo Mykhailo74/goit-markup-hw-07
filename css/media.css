@@ -19,7 +19,6 @@
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        /* text-align: center; */
         row-gap: 72px;
         justify-content: center;
     }
@@ -82,49 +81,65 @@
         max-width: 1158px;
     }
 
-    /* Team */
+    /* Advantages */
 
-    .team-section {
+    .advantage-section {
         padding: 120px 0;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .team-container {
-        padding-left: 0;
-        padding-right: 0;
+    .advantage-container {
+        min-width: 1128px;
     }
 
-    .team-list {
+    .advantage-list {
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         gap: 24px;
+        justify-content: center;
+
+        /* Team */
+
+        .team-section {
+            padding: 120px 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .team-container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .team-list {
+            display: flex;
+            flex-wrap: no-wrap;
+            gap: 24px;
+        }
+
+        .team-item {
+            width: calc((100% - 72px) / 4);
+        }
+
+        /* Customers */
+
+        .customers-container {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .customers-section {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+
+        .customers-list {
+            display: flex;
+            flex-wrap: no-wrap;
+            gap: 24px;
+        }
+
+        .customers-item {
+            width: calc((100% - 120px) / 6);
+        }
     }
-
-    .team-item {
-        width: calc((100% - 72px) / 4);
-    }
-
-    /* Customers */
-
-    .customers-container {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .customers-section {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-
-    .customers-list {
-        display: flex;
-        flex-wrap: no-wrap;
-        gap: 24px;
-    }
-
-    .customers-item {
-        width: calc((100% - 120px) / 6);
-    }
-
 }
