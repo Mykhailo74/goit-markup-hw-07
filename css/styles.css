@@ -208,21 +208,34 @@ img {
 
 .advantage-section {
     padding: 96px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advantage-container {
+    min-width: 396px;
+    min-height: 624px;
 }
 
 .advantage-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 72px;
+    width: 100%;
 }
 
-.advantage-item {
-    /* padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto; */
+.advantage-title {
+    display: flex;
+    justify-content: center;
 }
+
+/* .advantage-item {
+    width: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .advantage-feature {
     display: none;
@@ -235,11 +248,13 @@ img {
 }
 
 .advantage-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11px;
+    text-align: center;
     letter-spacing: 0.02em;
-    color: var(--title-color-one);
+    text-transform: capitalize;
+    color: #2E2F42;
     margin-bottom: 8px;
 }
 
@@ -248,7 +263,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color-one);
-    max-width: 264px;
 }
 
 /* Activities */
@@ -272,11 +286,6 @@ img {
     display: flex;
     align-items: center;
     gap: 72px;
-}
-
-.advantage-item {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* Team */

@@ -13,6 +13,25 @@
         max-width: 766px;
     }
 
+    /* Advantages */
+
+    .advantage-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        /* text-align: center; */
+        row-gap: 72px;
+        justify-content: center;
+    }
+
+    .advantage-title {
+        justify-content: left;
+    }
+
+    .advantage-item {
+        width: calc((100% - 24px) / 2);
+    }
+
     /* Team */
 
     .team-container {
