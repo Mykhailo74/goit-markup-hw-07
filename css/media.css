@@ -96,50 +96,57 @@
         flex-wrap: nowrap;
         gap: 24px;
         justify-content: center;
-
-        /* Team */
-
-        .team-section {
-            padding: 120px 0;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .team-container {
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .team-list {
-            display: flex;
-            flex-wrap: no-wrap;
-            gap: 24px;
-        }
-
-        .team-item {
-            width: calc((100% - 72px) / 4);
-        }
-
-        /* Customers */
-
-        .customers-container {
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        .customers-section {
-            padding-top: 120px;
-            padding-bottom: 120px;
-        }
-
-        .customers-list {
-            display: flex;
-            flex-wrap: no-wrap;
-            gap: 24px;
-        }
-
-        .customers-item {
-            width: calc((100% - 120px) / 6);
-        }
     }
+
+    .advantage-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    /* Team */
+
+    .team-section {
+        padding: 120px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .team-list {
+        display: flex;
+        flex-wrap: no-wrap;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    /* Customers */
+
+    .customers-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .customers-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-list {
+        display: flex;
+        flex-wrap: no-wrap;
+        gap: 24px;
+    }
+
+    .customers-item {
+        width: calc((100% - 120px) / 6);
+    }
+}
 }
