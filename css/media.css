@@ -34,8 +34,9 @@
     /* Team */
 
     .team-container {
-        padding-left: 108px;
-        padding-right: 108px;
+        /* padding-left: 108px;
+        padding-right: 108px; */
+        max-width: 582px;
     }
 
     .team-list {
@@ -60,8 +61,9 @@
     }
 
     .customers-container {
-        padding-left: 108px;
-        padding-right: 108px;
+        /* padding-left: 108px;
+        padding-right: 108px; */
+        max-width: 582px;
     }
 
     .customers-list {
@@ -89,6 +91,8 @@
 
     .advantage-container {
         min-width: 1128px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .advantage-list {
@@ -106,7 +110,11 @@
         width: calc((100% - 72px) / 4);
     }
 
-    .advantage-text {}
+    /* Activities */
+
+    .activities-section {
+        display: flex;
+    }
 
     /* Team */
 

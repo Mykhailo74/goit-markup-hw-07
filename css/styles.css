@@ -230,12 +230,6 @@ img {
     justify-content: center;
 }
 
-/* .advantage-item {
-    width: 100% auto;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .advantage-feature {
     display: none;
     justify-content: center;
@@ -268,6 +262,12 @@ img {
 
 .activities-section {
     padding-bottom: 120px;
+    display: none;
+}
+
+.activities-container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .activities {
@@ -278,13 +278,17 @@ img {
     text-transform: capitalize;
     color: var(--title-color-one);
     margin-bottom: 72px;
-
 }
 
 .activities-list {
     display: flex;
     align-items: center;
-    gap: 72px;
+    gap: 24px;
+    width: 100%;
+}
+
+.activities-item {
+    width: calc((100% - 48px) / 3);
 }
 
 /* Team */
