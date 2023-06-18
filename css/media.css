@@ -107,8 +107,9 @@
     }
 
     .footer-input {
-        align-items: start;
-        justify-content: left;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
 
     .footer-form-text {
