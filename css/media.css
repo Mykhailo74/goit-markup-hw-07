@@ -83,7 +83,8 @@
     }
 
     .footer-super-container {
-        align-items: start;
+        /* align-items: flex-start; */
+        align-content: flex-start;
         flex-wrap: wrap;
         max-width: 582px;
     }
@@ -110,10 +111,10 @@
     }
 
     .footer-form-container {
-        min-width: 453px;
+        width: 453px;
         height: 80px;
         align-items: start;
-        justify-content: left;
+        justify-content: flex-start;
         flex-wrap: nowrap;
         gap: 0px;
         padding-left: 0;
