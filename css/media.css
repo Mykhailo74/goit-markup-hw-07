@@ -103,10 +103,20 @@
 
     .footer-form-container {
         max-width: 453px;
+        margin-left: 0;
+    }
+
+    .footer-input {
+        align-items: start;
+        justify-content: left;
     }
 
     .footer-form-text {
         margin-bottom: 16px;
+    }
+
+    .footer-email {
+        min-width: 264px;
     }
 
     .footer-logo {
