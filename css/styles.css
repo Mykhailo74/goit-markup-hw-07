@@ -404,12 +404,19 @@ img {
     padding-bottom: 96px;
 }
 
+.customers-container {
+    max-width: 396px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .customers-list {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     text-align: center;
     row-gap: 72px;
+    width: 100%;
 }
 
 .customers-item {
