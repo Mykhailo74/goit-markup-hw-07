@@ -577,7 +577,7 @@ img {
 .footer-super-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 72px;
     /* flex-wrap: wrap;
     align-items: center;
