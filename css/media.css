@@ -84,9 +84,10 @@
 
     .footer-super-container {
         /* align-items: flex-start; */
-        align-content: flex-start;
+        display: flex;
         flex-wrap: wrap;
         max-width: 582px;
+        /* X */
     }
 
     .footer-container {
