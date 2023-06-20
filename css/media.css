@@ -13,6 +13,27 @@
         max-width: 766px;
     }
 
+    /* Hero */
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+        min-width: 768px;
+    }
+
+    .hero-container {
+        max-width: 526px;
+        height: auto;
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.11;
+        margin-bottom: 36px;
+        max-width: 496px;
+        height: 120px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     /* Advantages */
 
     .advantage-list {
@@ -83,12 +104,11 @@
     } */
 
     .footer-super-container {
-        align-items: flex-start;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 552px;
-        /* width: 552px; */
+        max-width: 592px;
+        width: 100%;
         padding-left: 0;
         /* X */
     }
@@ -186,6 +206,22 @@
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+    }
+
+    /* Hero */
+    .hero {
+        background-color: var(--background-color-one);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+        padding-top: 188px;
+        padding-bottom: 188px;
+        max-width: 1440px;
+    }
+
+    */ .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 48px;
+        max-width: 496px;
     }
 
     /* Advantages */

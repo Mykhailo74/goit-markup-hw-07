@@ -157,24 +157,24 @@ img {
 
 .hero {
     background-color: var(--background-color-one);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    max-width: 1440px;
+    padding-top: 112px;
+    padding-bottom: 112px;
 }
 
 .hero-title {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--title-color-two);
-    margin-bottom: 48px;
-    max-width: 496px;
+    margin-bottom: 72px;
+    max-width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -191,7 +191,6 @@ img {
     display: block;
     min-width: 169px;
     height: 56px;
-    margin-top: 48px;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
@@ -682,6 +681,8 @@ img {
     flex-wrap: wrap;
     width: 100%;
     gap: 16px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .footer-input {
