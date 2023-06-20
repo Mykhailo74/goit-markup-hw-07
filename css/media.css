@@ -19,6 +19,14 @@
         min-width: 768px;
     }
 
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab-2x.jpg);
+        }
+    }
+
     .hero-container {
         max-width: 526px;
         height: auto;
@@ -217,6 +225,14 @@
         max-width: 1440px;
     }
 
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-2x.jpg);
+        }
+    }
+
     */ .hero-title {
         font-size: 56px;
         line-height: 1.07;
@@ -255,6 +271,34 @@
 
     .activities-section {
         display: flex;
+        padding-bottom: 120px;
+    }
+
+    .activities-container {
+        min-width: 1158px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .activities {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--title-color-one);
+        margin-bottom: 72px;
+    }
+
+    .activities-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .activities-item {
+        width: calc((100% - 48px) / 3);
     }
 
     /* Team */

@@ -165,6 +165,14 @@ img {
     padding-bottom: 112px;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob-2x.jpg);
+    }
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 36px;
@@ -261,35 +269,7 @@ img {
 /* Activities */
 
 .activities-section {
-    padding-bottom: 120px;
     display: none;
-}
-
-.activities-container {
-    min-width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.activities {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--title-color-one);
-    margin-bottom: 72px;
-}
-
-.activities-list {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    width: 100%;
-}
-
-.activities-item {
-    width: calc((100% - 48px) / 3);
 }
 
 /* Team */
