@@ -96,10 +96,6 @@ img {
     stroke: #2E2F42;
 }
 
-.menu-open-btn {
-    border: none;
-    background-color: transparent;
-}
 
 .contacts {
     margin-left: auto;
@@ -132,6 +128,20 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf;
+}
+
+.menu-open-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.mob-menu {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* Header
