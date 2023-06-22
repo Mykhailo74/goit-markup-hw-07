@@ -14,11 +14,11 @@
     }
 
     /* Header */
-    .header-container {
+    /* .header-container {
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-    }
+    } */
 
     .menu-open-btn {
         display: none;
@@ -87,7 +87,7 @@
 
     .contacts-link {
         font-style: normal;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--text-color-one);
@@ -294,6 +294,10 @@
 
     .contacts {
         margin-left: auto;
+    }
+
+    .contacts-link {
+        font-size: 16px;
     }
 
     .contacts-list {
