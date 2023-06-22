@@ -50,7 +50,6 @@ img {
 
 .container {
     width: 100%;
-    /* max-width: 426px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -755,12 +754,7 @@ img {
 .footer-super-container {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     margin-bottom: 72px;
-    /* flex-wrap: wrap;
-    align-items: center;
-    gap: 72px;
-    max-width: 428px; */
 }
 
 .footer-container {
@@ -768,8 +762,6 @@ img {
     flex-direction: column;
     align-items: center;
     margin-bottom: 72px;
-    /* gap: 16px; */
-    /* 1 */
 }
 
 .footer-logo {
@@ -784,7 +776,6 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    /* 2 */
 }
 
 .footer-text {
@@ -793,12 +784,10 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
     color: var(--text-color-two);
-    /* 4 */
 }
 
 .logo-studio-footer {
     color: var(--text-color-two);
-    /* 3 */
 }
 
 .footer-soc-container {
@@ -806,7 +795,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* 7 */
 }
 
 .footer-soc-text {
@@ -816,14 +804,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color-two);
-    /* 7 */
 }
 
 .footer-soc-list {
     display: flex;
     justify-content: center;
     gap: 16px;
-    /* 5 */
 }
 
 .footer-soc-item {
@@ -840,7 +826,6 @@ img {
     border-radius: 50%;
     background: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* 6 */
 }
 
 .footer-soc-icon {
@@ -850,7 +835,6 @@ img {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #31d0aa;
-    /* 8 */
 }
 
 .footer-form-container {
@@ -868,17 +852,14 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* 9 */
 }
 
 .email-form {
     width: 100%;
-    /* 10 */
 }
 
 .footer-modal-form {
     display: flex;
-    /* gap: 16px; */
 }
 
 .footer-modal-form {
@@ -886,7 +867,6 @@ img {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    /* 11 */
 }
 
 .footer-form-text {
@@ -902,8 +882,6 @@ img {
     min-width: 398px;
     height: 40px;
     padding: 8px 16px 8px 16px;
-    /* margin-right: 24px; */
-    /* margin-bottom: 16px; */
     border-radius: 4px;
     outline: none;
     background-color: transparent;
@@ -914,19 +892,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* min-width: 398px;
-    height: 40px;
-    border: 1px solid #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background: #2E2F42;
-    padding-left: 16px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: transparent; */
 }
 
 .footer-email::placeholder {
@@ -939,13 +904,11 @@ img {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    /* X */
 }
 
 .footer-email:focus {
     border: 1px solid #4D5AE5;
     outline: none;
-    /* X */
 }
 
 .subscribe-button {
@@ -968,19 +931,6 @@ img {
     text-align: center;
     letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    min-width: 165px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #4D5AE5;
-    border-radius: 4px;
-    color: #ffffff;
-    border: none;
-    cursor: pointer; */
 }
 
 .subscribe-button:hover,
@@ -991,9 +941,6 @@ img {
 .footer-send-icon {
     fill: #ffffff;
     margin-left: 16px;
-    /* margin-left: 16px;
-    background: #4D5AE5;
-    color: #ffffff; */
 }
 
 /* Modal */
@@ -1074,15 +1021,6 @@ img {
     margin-top: 72px;
     margin-bottom: 16px;
 }
-
-/* .modal-textarea {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    margin-bottom: 8px;
-    padding-left: 24px;
-} */
 
 .inputs {
     margin-bottom: 8px;
