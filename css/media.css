@@ -13,13 +13,6 @@
         max-width: 766px;
     }
 
-    /* Header */
-    /* .header-container {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-    } */
-
     .menu-open-btn {
         display: none;
     }
@@ -193,7 +186,6 @@
         flex-wrap: wrap;
         max-width: 592px;
         width: 100%;
-        padding-left: 0;
     }
 
     .footer-container {
@@ -217,8 +209,6 @@
         align-items: start;
         padding-left: 0;
     }
-
-    .footer-soc-text {}
 
     .footer-form-container {
         width: 453px;
@@ -245,11 +235,6 @@
 
     .email-form {
         width: 264px;
-    }
-
-    .footer-form-text {
-        margin-bottom: 16px;
-        margin-left: 0;
     }
 
     .footer-email {
