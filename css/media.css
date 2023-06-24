@@ -196,7 +196,6 @@
         margin-left: 0;
         align-items: start;
         margin-right: 0;
-        /* height: 112px; */
     }
 
     .footer-logo {
@@ -219,7 +218,7 @@
         justify-content: flex-start;
         flex-wrap: nowrap;
         gap: 0px;
-        /* margin-left: 0; */
+        margin-left: 0;
     }
 
     .footer-form-text {
@@ -240,12 +239,6 @@
     .footer-email {
         min-width: 264px;
     }
-
-    /* .footer-button {
-        padding-top: 40px;
-        margin-left: 24px;
-    } */
-
 }
 
 /* DESKTOP */
@@ -483,6 +476,7 @@
         justify-content: left;
         flex-wrap: nowrap;
         gap: 0px;
+        margin-right: 0;
     }
 
     .footer-form-text {

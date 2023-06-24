@@ -655,13 +655,6 @@ img {
     display: flex;
 }
 
-/* .footer-super-container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0;
-} */
-
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -752,16 +745,6 @@ img {
     padding-left: 0;
     padding-right: 0;
 }
-
-/* .footer-input {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 16px;
-    padding-left: 0;
-    padding-right: 0;
-} */
 
 .email-form {
     width: 100%;
