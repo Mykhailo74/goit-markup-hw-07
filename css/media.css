@@ -454,6 +454,7 @@
     }
 
     .footer-super-container {
+        justify-content: space-evenly;
         padding-left: 0;
         padding-right: 0;
     }
@@ -485,9 +486,5 @@
 
     .footer-email {
         min-width: 264px;
-    }
-
-    .subscribe-button {
-        margin-left: 24px;
     }
 }
