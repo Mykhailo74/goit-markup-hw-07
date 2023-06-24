@@ -53,7 +53,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 
@@ -655,6 +655,13 @@ img {
     display: flex;
 }
 
+/* .footer-super-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+} */
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -751,6 +758,8 @@ img {
     align-items: center;
     width: 100%;
     gap: 16px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .email-form {
@@ -826,6 +835,7 @@ img {
     text-align: center;
     letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 16px;
 }
 
 .subscribe-button:hover,

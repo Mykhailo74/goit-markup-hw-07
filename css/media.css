@@ -196,6 +196,7 @@
         margin-left: 0;
         align-items: start;
         margin-right: 0;
+        /* height: 112px; */
     }
 
     .footer-logo {
@@ -223,6 +224,7 @@
 
     .footer-input {
         align-items: normal;
+        min-width: 473px;
     }
 
     .footer-modal-form {
@@ -459,6 +461,11 @@
         padding-bottom: 100px;
     }
 
+    .footer-super-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .footer-container {
         max-width: 264px;
     }
@@ -467,6 +474,7 @@
         min-width: 208px;
         height: 80px;
         margin-right: 80px;
+        margin-left: 120px;
     }
 
     .footer-form-container {
@@ -478,13 +486,12 @@
         gap: 0px;
         padding-left: 0;
         padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
+
     }
 
     .footer-input {
         display: flex;
-        margin-right: auto;
+        margin-right: 0;
         margin-left: 0;
     }
 
