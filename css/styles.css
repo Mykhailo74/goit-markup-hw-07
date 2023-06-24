@@ -749,8 +749,8 @@ img {
     flex-wrap: wrap;
     width: 100%;
     gap: 16px;
-    /* padding-left: 0;
-    padding-right: 0; */
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* .footer-input {
