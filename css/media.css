@@ -193,7 +193,6 @@
         padding-left: 0;
         padding-right: 0;
         max-width: 264px;
-        height: 112px;
         margin-left: 0;
         align-items: start;
         margin-right: 0;
@@ -275,6 +274,7 @@
     .page-list {
         display: flex;
         gap: 40px;
+        margin-left: 76px;
     }
 
     .contacts {
@@ -351,6 +351,25 @@
 
     .advantage-item {
         width: calc((100% - 72px) / 4);
+    }
+
+    .advantage-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+        color: #2E2F42;
+        margin-bottom: 8px;
+    }
+
+    .advantage-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-color-one);
     }
 
     /* Activities */
@@ -438,22 +457,10 @@
     .footer {
         padding-top: 100px;
         padding-bottom: 100px;
-        padding-left: 0;
-    }
-
-    .footer-super-container {
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        padding-left: 0;
-        padding-right: 0;
-        min-width: 1158px;
-        /* min-width: 1125px; */
     }
 
     .footer-container {
-        margin-right: 120px;
         max-width: 264px;
-
     }
 
     .footer-soc-container {
