@@ -769,8 +769,8 @@ img {
 
 .footer-modal-form {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     gap: 16px;
     width: 100%;
 }
