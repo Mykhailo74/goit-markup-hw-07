@@ -222,10 +222,10 @@
         margin-left: 0;
     }
 
-    .footer-input {
+    /* .footer-input {
         align-items: normal;
         min-width: 473px;
-    }
+    } */
 
     .footer-modal-form {
         display: flex;
@@ -486,12 +486,12 @@
         gap: 0px;
     }
 
-    .footer-input {
+    /* .footer-input {
         display: flex;
         flex-direction: column;
         align-items: start;
         width: 100%;
-    }
+    } */
 
     .footer-form-text {
         margin-left: 0;
