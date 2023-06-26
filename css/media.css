@@ -196,6 +196,7 @@
         margin-left: 0;
         align-items: start;
         margin-right: 0;
+        margin-bottom: 0;
     }
 
     .footer-logo {
@@ -238,6 +239,11 @@
 
     .footer-email {
         min-width: 264px;
+    }
+
+    .modal {
+        max-width: 408px;
+        max-height: 584px;
     }
 }
 
@@ -461,6 +467,7 @@
 
     .footer-container {
         max-width: 264px;
+        margin-bottom: 0px;
     }
 
     .footer-soc-container {
@@ -486,5 +493,12 @@
 
     .footer-email {
         min-width: 264px;
+    }
+
+    /* Modal */
+
+    .modal {
+        max-width: 408px;
+        max-height: 584px;
     }
 }
