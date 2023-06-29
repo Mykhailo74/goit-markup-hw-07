@@ -470,25 +470,26 @@
     }
 
     .footer-container {
-        max-width: 264px;
+
         margin-bottom: 0px;
     }
 
     .footer-soc-container {
-        min-width: 208px;
-        height: 80px;
         margin-right: 80px;
         margin-left: 120px;
     }
 
     .footer-form-container {
         min-width: 453px;
-        height: 80px;
         align-items: flex-start;
         justify-content: left;
         flex-wrap: nowrap;
         gap: 0px;
         margin-right: 0;
+    }
+
+    .footer-text {
+        max-width: 264px;
     }
 
     .footer-form-text {
