@@ -69,6 +69,10 @@
         border-radius: 2px;
     }
 
+    .current {
+        color: #404BBF;
+    }
+
     .page-link:hover,
     .page-link:focus {
         color: #404bbf;
