@@ -16,11 +16,12 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container header-container">        
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="logo link" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
@@ -36,7 +37,7 @@
               <a class="page-link link" href="">Contacts</a>
             </li>
           </ul>
-        </nav>              
+        </nav>
         <address class="contacts">
           <ul class="contacts-list list">
             <li class="contacts-item">
@@ -50,7 +51,7 @@
               >
             </li>
           </ul>
-        </address>  
+        </address>
         <button type="button" class="menu-open-btn" data-menu-open>
           <svg class="menu-burger" width="32" height="22">
             <use href="./css/icons.svg#icon-menu-burger"></use>
@@ -61,91 +62,97 @@
       <!-- Header Mob Menu -->
       <div class="mob-menu is-hidden" data-menu>
         <div>
-        <button type="button" class="menu-close-btn" data-menu-close>
-          <svg class="menu-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp"></use>
-          </svg>
-        </button>
-        <ul class="mob-menu-list list">
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
             <li class="mob-menu-item">
-              <a class="mob-menu-link current link" href="./index.html">Studio</a>
+              <a class="mob-menu-link current link" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li class="mob-menu-item">
-              <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+              <a class="mob-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="mob-menu-item">
               <a class="mob-menu-link link" href="">Contacts</a>
             </li>
           </ul>
-          </div>
-          <div>
+        </div>
+        <div>
           <address class="mob-menu-address">
-          <ul class="mob-menu-address-list list">
-            <li class="mob-menu-address-item">
-              <a class="mob-menu-address-link mob-menu-tel-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
+            <ul class="mob-menu-address-list list">
+              <li class="mob-menu-address-item">
+                <a
+                  class="mob-menu-address-link mob-menu-tel-link link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-menu-address-item second-item">
+                <a
+                  class="mob-menu-address-link mob-menu-email-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list list">
+            <li class="mob-soc-item">
+              <a
+                href=""
+                class="mob-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="mob-menu-address-item second-item">
-              
-                <a class="mob-menu-address-link mob-menu-email-link link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+            <li class="mob-soc-item">
+              <a
+                href=""
+                class="mob-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a
+                href=""
+                class="mob-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-item">
+              <a
+                href=""
+                class="mob-soc-link link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="mob-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class="mob-soc-list list">
-                  <li class="mob-soc-item">
-                    <a
-                      href=""
-                      class="mob-soc-link link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <svg class="mob-soc-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="mob-soc-item">
-                    <a
-                      href=""
-                      class="mob-soc-link link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <svg class="mob-soc-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="mob-soc-item">
-                    <a
-                      href=""
-                      class="mob-soc-link link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <svg class="mob-soc-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="mob-soc-item">
-                    <a
-                      href=""
-                      class="mob-soc-link link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <svg class="mob-soc-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-                </div>
-                </div>
+        </div>
       </div>
     </header>
     <main>
